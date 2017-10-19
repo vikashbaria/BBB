@@ -2,8 +2,20 @@
 // This is a template for a PHP scraper on morph.io (https://morph.io)
 // including some code snippets below that you should find helpful
 
-// require 'scraperwiki.php';
-// require 'scraperwiki/simple_html_dom.php';
+require 'scraperwiki.php';
+require 'scraperwiki/simple_html_dom.php';
+
+/*There are three  type search in every page
+1) Check Mark in BBB Accredaited
+2) Sort from Best Match
+3) Sort from A to Z
+*/
+//  This is 1 Page https://www.bbb.org/en/ca/search?accreditedFilter=0&inputText=a&locationLatLng=&locationText=&page=2&sort=Relevance
+//  This is 2 Page  https://www.bbb.org/en/ca/search?accreditedFilter=1&inputText=a&locationLatLng=&locationText=&page=1&sort=Relevance
+$alpha = array("a", "b");
+for($page )
+
+
 //
 // // Read in a page
 // $html = scraperwiki::scrape("http://foo.com");
