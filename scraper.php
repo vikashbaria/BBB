@@ -10,8 +10,8 @@ require 'scraperwiki/simple_html_dom.php';
 2) Sort from Best Match
 3) Sort from A to Z
 */
-//  This is 1 Page https://www.bbb.org/en/ca/search?accreditedFilter=0&inputText=a&locationLatLng=&locationText=&page=2&sort=Relevance
-//  This is 2 Page  https://www.bbb.org/en/ca/search?accreditedFilter=1&inputText=a&locationLatLng=&locationText=&page=1&sort=Relevance
+//  This is 1 Page https://www.bbb.org/en/ca/search?accreditedFilter=0&inputText=a&locationLatLng=&locationText=&page=1&sort=Relevance
+
 $alpha = array("a", "b");
 for($page )
 
