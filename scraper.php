@@ -13,9 +13,12 @@ require 'scraperwiki/simple_html_dom.php';
 //  This is 1 Page https://www.bbb.org/en/ca/search?accreditedFilter=0&inputText=a&locationLatLng=&locationText=&page=1&sort=Relevance
 
 $alpha = array("a", "b", "c");
-for($page = 1;  $page< count($alpha); $page++)
+for($page = 0;  $page< count($alpha); $page++)
 {
-echo $page;
+  for($loop = 1;  $loop< 101; $loop++)
+  {
+    echo "$page[$loop]\n";
+  }
 }
 
 
