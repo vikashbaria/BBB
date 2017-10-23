@@ -15,7 +15,7 @@ require 'scraperwiki/simple_html_dom.php';
 $alpha = array("a", "b");
 for($page = 1;  $page< count($alpha); $page++)
 {
-echo $alpha[$page];
+echo $page;
 }
 
 
