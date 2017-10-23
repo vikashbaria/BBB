@@ -17,7 +17,7 @@ for($page = 0;  $page< count($alpha); $page++)
 {
   for($loop = 1;  $loop< 101; $loop++)
   {
-    echo "$page[$loop]\n";
+    echo $page[$loop];
   }
 }
 
